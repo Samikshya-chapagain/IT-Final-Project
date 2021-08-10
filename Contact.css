@@ -1,0 +1,120 @@
+*{
+			margin:0;
+			padding:0;
+			
+		}
+
+		.container4{
+			height: 900px;
+			width: 1140px;
+			margin-left: 90px;
+			position: relative;
+			top: -315px;
+	
+			background-image: url(minimalistic.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			padding-left: 3%;
+			padding-right: 3%;
+			box-sizing: border-box;
+
+		}
+
+		.header4{
+			height: 15%;
+			display: flex;
+			align-items: center;
+			overflow: hidden;
+			position: relative;
+		}
+
+		.logo4{
+			width: 1000px;
+			cursor: pointer;
+			color: black;
+			font-weight: bold;
+			font-family: "Mate SC";
+		}
+
+		
+		.content4{
+			text-align: center;
+			margin-top: 12%;
+		}
+
+		.content4 h1{
+			font-family: "Mate SC";
+			font-size:50px;
+			color: black;
+			width:500px;
+		}
+
+		.content4 h4{
+			width:500px;
+			color: #808080;
+			font-family: "Mate SC";
+		}
+
+		
+		.table-container, .form-container, .inline-st{
+			color:black;
+
+		}
+
+		.footer6{
+			height: 170px;
+			width: 1140px;
+			position: relative;
+			background-color: lightgray;
+			margin-left: -40px;
+			top: 80px;
+
+		}
+		.footer6 h3{
+			position: relative;
+			left: -480px;
+		}
+		.footer6 ul li{
+			list-style: none;
+			position: relative;
+			left: -450px;
+		}
+
+		.footer6copy{
+			height: 170px;
+			width: 300px;
+			position: relative;
+			background-color: lightgray;
+			left: 160px;
+			top: -149px;
+		}
+		.footer6copy h3{
+			position: relative;
+			left: -5px;
+		}
+
+		.footer6copy ol li{
+			list-style: none;
+		}
+		.footer6copy6{
+			height: 170px;
+			width: 170px;
+			position: relative;
+			background-color: lightgray;
+			left: 380px;
+			top: -91px;
+		}
+		.footer6copy6 ol li{
+			list-style: none;
+			position: relative;
+			left: 70px;
+		}
+
+		.footer6copy6 h5{
+			position: relative;
+			color: #009688;
+			left: 20px;
+			top: 10px;
+		}
+
+

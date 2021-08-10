@@ -1,0 +1,83 @@
+.container3{
+	height: 710px;
+	width: 1140px;
+	margin-left: 90px;
+	position: relative;
+	top: -315px;
+}
+
+.description-container{
+	text-align: center;
+}
+
+.img-research1{
+	height:450px;
+	width: 1140px;
+}
+
+		
+.img-research2, .img-research3, .img-research4,.img-research5, .img-research6{
+	height:200px;
+}
+
+.description-container h1{
+	font-family: "Mate SC"; 
+	font-size: 50px;
+	text-align:center;
+}
+
+
+h3{
+	font-family: "Mate SC";
+}
+
+.description-container2, .description-container4{
+	float:right;
+	width: 550px;
+}
+
+.footer4
+{
+	height: 170px;
+	width: 1140px;
+	position: relative;
+	background-color: lightgray;
+	margin-left: 90px;
+	margin-top: 780px;
+	
+}
+
+
+.footer4 ul li{
+	list-style: none;
+}
+
+.footercopy4{
+	height: 170px;
+	width: 550px;
+	position: relative;
+	background-color: lightgray;
+	left: 180px;
+	bottom: 184px;
+}
+.footercopy4 ol li{
+	list-style: none;
+}
+.footer4copy4{
+	height: 170px;
+	width: 550px;
+	position: relative;
+	background-color: lightgray;
+	left: 600px;
+	top: -188px;
+}
+.footer4copy4 ol li{
+	list-style: none;
+}
+
+.footer4copy4 h5{
+	position: relative;
+	color: #009688;
+	left: 40px;
+}
+

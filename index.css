@@ -1,0 +1,157 @@
+.header{
+	height: 80px;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 350px;
+}
+.logo{
+	width: 140px;
+	cursor: pointer;
+	position: relative;
+	left: 90px;
+}
+
+.navbar{
+	text-align: center;
+	flex: 1;
+}
+
+.navbar a{
+	padding:6px 20px;
+	text-decoration: none;
+	color: black;
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+.navbar a:hover{
+	background-color: skyblue;
+	color: black;
+}
+
+.container{
+	width: 1140px;
+	height: 710px;
+	background-image: url(hjkl.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 90px;
+	position: relative;
+	margin-top: -315px;
+}
+
+/*.content h1{
+	text-align: center;
+	position: relative;
+	top: -10px;
+
+}*/
+
+.content h1{
+	font-family: "Mate SC";
+	font-size:50px;
+	color: #000;
+	width: 1000px;
+	left: 180px;
+	position: relative;
+	top: -480px;
+	text-align: center;
+
+			
+}
+
+.btn{
+	cursor: pointer;
+	color: #808080;
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding: 10px 30px;
+	border: 2px solid #708090;
+	background: transparent;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	margin: 40px 8px;
+	position: relative;
+	left: 480px;
+	top: -490px;
+}
+
+
+
+.btn:hover{
+	color:#000;
+	background-color: #fff;
+}
+
+.btn a:visited{
+	background-color: #fff;
+	color: #000;
+}
+
+.btn a:hover{
+	color:#000;
+}
+
+.btn a:link{
+	text-decoration:none;
+}
+
+footer{
+	position: relative;
+	top: -305px;
+	height: 170px;
+	width: 1140px;
+	background-color: lightgray;
+	margin-left: 90px;
+}
+
+.footer1 h3{
+	position: relative;
+
+}
+
+.footer1 ul li{
+	list-style: none;
+}
+
+.footercopy h3{
+	position:  relative;
+	left: 140px;
+	top: -185px;
+}
+
+.footercopy ol li{
+	list-style: none;
+	position: relative;
+	top: -195px;
+	left: 140px;
+}
+
+.footercopy1 h3{
+	position: relative;
+	left: 310px;
+	top: -260px;
+}
+
+.footercopy1 ol li{
+	position: relative;
+	list-style: none;
+	left: 320px;
+	top: -260px;
+}
+
+.footercopy1 h5{
+	position: relative;
+	color: #009688;
+	top: -260px;
+	left: 360px;
+}
+
+
+
+

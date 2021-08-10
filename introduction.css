@@ -1,0 +1,68 @@
+.container8{
+	height: 710px;
+	width: 1140px;
+	position: relative;
+	background-image: url(whiteworkplace.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 90px;
+	top: -315px;
+
+}
+
+h1{
+	text-align: center;
+	font-family: "Mate SC";
+}
+
+h3{
+	font-family: "Mate SC";
+}
+
+.intro, .desc{
+	width:600px;
+	float: left;
+}
+
+.footer2{
+	height: 170px;
+	width: 1140px;
+	position: relative;
+	background-color: lightgray;
+	margin-left: 90px;
+	top: -325px;
+
+}
+.footer2 ul li{
+	list-style: none;
+}
+
+.footer2copy{
+	height: 170px;
+	width: 550px;
+	position: relative;
+	background-color: lightgray;
+	left: 180px;
+	top: -188px;
+}
+
+.footer2copy ol li{
+	list-style: none;
+}
+.footer2copy2{
+	height: 170px;
+	width: 550px;
+	position: relative;
+	background-color: lightgray;
+	left: 500px;
+	top: -514px;
+}
+.footer2copy2 ol li{
+	list-style: none;
+}
+
+.footer2copy2 h5{
+	position: relative;
+	color: #009688;
+	left: 50px;
+}

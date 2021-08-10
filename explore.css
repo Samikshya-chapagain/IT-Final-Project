@@ -1,0 +1,72 @@
+.container7{
+	height: 960px;
+	width: 1140px;
+	margin-left: 90px;
+	position: relative;
+	top: -315px;
+}
+
+h1{
+	font-family: "Mate SC";
+	text-align:center;
+}
+
+
+h3{
+	font-family: "Mate SC";
+}
+
+
+.video-1, .video-3{
+	float: right;
+	width: 500px;
+}
+
+
+.video-2, .video-4{
+	float: left;
+	width: 500px;
+}
+
+.footer8{
+	height: 170px;
+	width: 1140px;
+	position: relative;
+	background-color: lightgray;
+	margin-left: 90px;
+	top: -325px;
+
+}
+.footer8 ul li{
+	list-style: none;
+}
+
+.footer8copy{
+	height: 170px;
+	width: 550px;
+	position: relative;
+	background-color: lightgray;
+	left: 180px;
+	top: -188px;
+}
+
+.footer8copy ol li{
+	list-style: none;
+}
+.footer8copy8{
+	height: 170px;
+	width: 550px;
+	position: relative;
+	background-color: lightgray;
+	left: 500px;
+	top: -514px;
+}
+.footer8copy8 ol li{
+	list-style: none;
+}
+
+.footer8copy8 h5{
+	position: relative;
+	color: #009688;
+	left: 10px;
+}

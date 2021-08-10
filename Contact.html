@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Mate+SC&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="Contact.css">
+	
+</head>
+<body>
+	<div class="header">
+		<img src="websymbol.png" class="logo">
+		<div class="navbar">
+			<a href="index.html">HOME</a>
+			<a href="About.html">ABOUT</a>
+			<a href="Introduction.html">INTRODUCTION</a>
+			<a href="Research.html">RESEARCH</a>
+			<a href="Vission.html">VISSION</a>
+			<a href="contact.html">CONTACT</a>
+
+		</div>
+	</div>
+	<div class="container4">
+		<div class="header4">
+
+			<h1 class="logo4">Contact Page</h1>
+			
+			
+		</div>
+
+		<div class="content4">
+
+			<h1>Let's Start a Conversation</h1>
+			<h4>For more details you can contact directly to this page.</h4>
+
+			<br>
+			<br>
+			
+
+			
+			<div class="table-container">
+				<table border="5" cellpadding="10" cellspacing="10">
+					<tr>
+						<th colspan="2">Contact Details</th>
+
+					</tr>
+
+
+					<tr>
+						<td>Project Enquiry</td>
+						<td>44567833</td>
+					</tr>
+
+
+					<tr>
+						<td>Personal Enquiry</td>
+						<td>9846372618</td>
+					</tr>
+					<tr>
+						<td>Email</td>
+						<td>csamikshya21@tbc.edu.np</td>
+					</tr>
+
+				</table>
+			</div>
+
+
+			<span class="inline-st">You can also register online below.</span>
+			<br>
+			<br>
+
+			<div class=form-container>
+					<form action = "Contact.html" name = "myForm" onsubmit = "return(validate());">
+					<fieldset>
+					<table cellspacing = "2" cellpadding = "2" border="1">
+						<tr>
+							<td align="right">Firstname</td>
+							<td><input type="text" name="Name"><br><br></td>
+						</tr>
+						<tr>
+							<td align="right">Lastname</td>
+							<td><input type="text" name="Lastname"><br><br></td>
+						</tr>
+						<tr>
+							<td align="right">Phone Number</td>
+							<td><input type="text" name="PhoneNumber"><br><br></td>
+						</tr>
+						<tr>
+							<td align="right">Email</td>
+							<td><input type="email" name="Email"><br><br></td>
+						</tr>
+						<tr>
+							<td align="right">Country</td>
+						<td>
+							<select name="Country">
+							<option value="1">India</option>
+							<option value="2">Nepal</option>
+							<option value="3">USA</option>
+							</select>
+						</td></tr>
+							
+						<tr> <td align = "right"></td> <td><input type = "submit" value = "Submit" /></td> </tr>
+						</table>
+						
+			
+		</fieldset>
+	</form>
+
+
+			</div>
+
+			<div class="footer6">
+			<h3>Site Map</h3>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Introduction</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Research</a></li>
+				<li><a href="#">Vission</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Explore</a></li>
+			</ul>
+			<div class="footer6copy">
+			<h3>Where are we?</h3>
+			<ol>
+				<li>Bypass,Balaju</li>
+			</ol>
+			</div>
+		</div>
+			<div class="footer6copy6">
+			<h3>Contact</h3>
+			<ol>
+				<li>Mobile +977 9808654377</li>
+				<li>samikshyachapagain12@gmail.com</li>
+			</ol>
+			<h5><a href="mailto:samikshyachapagain122gmail.com">Send Email</a></h5>
+			</div>
+
+		<script type="text/javascript">
+			
+			function validate() { 
+			if( document.myForm.Name.value == "" ) {
+			alert( "Please provide your first name!" ); document.myForm.Name.focus() ; return false;
+			}
+			if( document.myForm.Lastname.value == "" ) {
+			alert( "Please provide your last name!" ); document.myForm.Lastname.focus() ; return false;
+			}
+			if( document.myForm.PhoneNumber.value == "" ) {
+			alert( "Please provide your PhoneNumber!" ); document.myForm.PhoneNumber.focus() ; return false;
+			}
+			if( document.myForm.Email.value == "" ) {
+			alert( "Please provide your Email!" ); document.myForm.Email.focus() ; return false;
+			}
+			
+			if( document.myForm.Country.value == "-1" ) {
+			alert( "Please provide your country!" ); return false;
+			}
+			return( true );
+			}
+			
+
+		</script>
+
+</body>
+</html>

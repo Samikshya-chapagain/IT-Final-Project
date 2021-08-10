@@ -1,0 +1,102 @@
+.content4{
+	height: 710px;
+	width: 1140px;
+	margin-left: 90px;
+	position: relative;
+	top: -315px;
+}
+
+h1{
+	text-align:center;
+	font-family: "Mate SC";
+	font-size: 50px;
+}
+
+h3{
+	font-family: "Mate SC";
+}
+
+.word-mark{
+	font-size: 20px;
+	color: #808080;
+}
+		
+.desc-container{
+	width: 800px;
+	margin: 40px auto 20px;
+}
+
+.desc-container p{
+	text-align: justify;
+}
+
+.img1{
+	width: 500px;
+	float: right;
+	margin-left:35px;
+	margin-bottom: 10px;
+}
+
+.img2{
+	width: 500px;
+	float: left;
+	margin-right:35px;
+	margin-bottom: 10px;
+}
+
+
+
+.footer5{
+	height: 170px;
+	width: 1140px;
+	position: relative;
+	background-color: lightgray;
+	margin-left: 90px;
+	top: -110px;
+
+	}
+.footer5 h3{
+	position: relative;
+	left: -670px;
+}
+.footer5 ul li{
+	list-style: none;
+	position: relative;
+	left: -620px;
+}
+
+.footer5copy{
+	height: 170px;
+	width: 300px;
+	position: relative;
+	background-color: lightgray;
+	left: 170px;
+	top: -186px;
+}
+.footer5copy h3{
+	position: relative;
+	left: -5px;
+}
+
+.footer5copy ol li{
+	list-style: none;
+}
+.footer5copy5{
+	height: 170px;
+	width: 170px;
+	position: relative;
+	background-color: lightgray;
+	left: 460px;
+	top: -298px;
+}
+.footer5copy5 ol li{
+	list-style: none;
+	position: relative;
+	left: 10px;
+}
+
+.footer5copy5 h5{
+	position: relative;
+	color: #009688;
+	left: 60px;
+}
